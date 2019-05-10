@@ -229,7 +229,7 @@ def default_loader(path):
     except:
         print("Cannot read image: {}".format(path))
 
-# define your Dataset. Assume each line in your .txt file is [name/tab/label], for example:0001.jpg 1
+ define your Dataset. Assume each line in your .txt file is [name/tab/label], for example:0001.jpg 1
 class customData(Dataset):
     def __init__(self, img_path, txt_path, dataset = '', data_transforms=None, loader = default_loader):
         with open(txt_path) as input_file:
