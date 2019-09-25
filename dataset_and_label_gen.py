@@ -129,9 +129,9 @@ import os
 import random
 
 # variables need to be change
-source_image_dir="/Users/baidu/Desktop/used/SuZhouRuiTu_dataset/single-poly-defect/poly_defect_gen"
-target_image_dir="/Users/baidu/Desktop/used/SuZhouRuiTu_dataset/data_for_resnet_classification"
-txt_file_dir="/Users/baidu/Desktop/used/SuZhouRuiTu_dataset/data_for_resnet_classification/TxtFile"
+source_image_dir="/Users/Desktop/used/SuZhouRuiTu_dataset/single-poly-defect/poly_defect_gen"
+target_image_dir="/Users/Desktop/used/SuZhouRuiTu_dataset/data_for_resnet_classification"
+txt_file_dir="/Users/Desktop/used/SuZhouRuiTu_dataset/data_for_resnet_classification/TxtFile"
 prefix="gen_poly_defect"
 class_label=2
 # label 0: single_OK ; label_1: poly_OK ; label 2: poly_defect
